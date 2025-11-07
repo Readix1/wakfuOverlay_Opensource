@@ -21,8 +21,8 @@
     },
     "Indimo": {
         "classe": "iop",
-        "ini": 7,
-        "image_path": "ressources\\img_overlay\\heads/90_1.png",
+        "ini": 2,
+        "image_path": "ressources\\img_overlay\\heads/80_1.png",
         "shortcut": "f14"
     },
     "Divahle": {
@@ -54,8 +54,8 @@
     },
     "Readix": {
         "classe": "Iop",
-        "ini": 3,
-        "image_path": "ressources\\img_overlay\\heads/101_1.png"
+        "ini": 1,
+        "image_path": "ressources\\img_overlay\\heads/90_1.png"
     },
     "Ganna": {
         "classe": "Pandawa",
@@ -196,5 +196,90 @@
         "classe": "Pandawa",
         "ini": 4,
         "image_path": "ressources\\img_overlay\\heads/120_1.png"
+    },
+    "Trelu": {
+        "classe": "WAKFU",
+        "ini": 2,
+        "image_path": "ressources\\img_overlay\\heads/60_1.png"
+    },
+    "Besii": {
+        "classe": "WAKFU",
+        "ini": 1,
+        "image_path": "ressources\\img_overlay\\heads/130_1.png"
+    },
+    "Nedix": {
+        "classe": "WAKFU",
+        "ini": 3,
+        "image_path": "ressources\\img_overlay\\heads/30_1.png"
+    },
+    "Besex": {
+        "classe": "WAKFU",
+        "ini": 3,
+        "image_path": "ressources\\img_overlay\\heads/100_1.png"
+    },
+    "Pyledo": {
+        "classe": "WAKFU",
+        "ini": 2,
+        "image_path": "ressources\\img_overlay\\heads/140_1.png"
+    },
+    "WAKFU": {
+        "classe": "",
+        "ini": 0,
+        "image_path": "ressources\\img_overlay\\icons/1004.png"
+    },
+    "Xeleto": {
+        "classe": "WAKFU",
+        "ini": 1,
+        "image_path": "ressources\\img_overlay\\heads/150_1.png"
+    },
+    "Licheri": {
+        "classe": "WAKFU",
+        "ini": 0,
+        "image_path": "ressources\\img_overlay\\heads/10_1.png"
+    },
+    "Nikax": {
+        "classe": "WAKFU",
+        "ini": 2,
+        "image_path": "ressources\\img_overlay\\heads/10_1.png"
+    },
+    "Chulax": {
+        "classe": "WAKFU",
+        "ini": 1,
+        "image_path": "ressources\\img_overlay\\heads/80_1.png"
+    },
+    "Chacha noir": {
+        "classe": "WAKFU",
+        "ini": 3,
+        "image_path": "ressources\\img_overlay\\heads/60_1.png"
+    },
+    "Tristepin": {
+        "classe": "WAKFU",
+        "ini": 0,
+        "image_path": "ressources\\img_overlay\\heads/90_1.png"
+    },
+    "Lerom": {
+        "classe": "WAKFU",
+        "ini": 1,
+        "image_path": "ressources\\img_overlay\\heads/90_1.png"
+    },
+    "Kenaa": {
+        "classe": "WAKFU",
+        "ini": 2,
+        "image_path": "ressources\\img_overlay\\heads/120_1.png"
+    },
+    "Rewee": {
+        "classe": "WAKFU",
+        "ini": 1,
+        "image_path": "ressources\\img_overlay\\heads/10_1.png"
+    },
+    "Mere-Ubu": {
+        "classe": "Iop",
+        "ini": 1,
+        "image_path": "ressources\\img_overlay\\heads/30_1.png"
+    },
+    "Ubu-Roi": {
+        "classe": "Iop",
+        "ini": 1,
+        "image_path": "ressources\\img_overlay\\heads/60_1.png"
     }
 }

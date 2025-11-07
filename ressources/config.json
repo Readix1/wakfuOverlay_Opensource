@@ -5,14 +5,14 @@
     },
     "keyboard_bindings": {
         "stop": "f12",
-        "next_win": "tab",
+        "next_win": "",
         "prev_win": "x2",
         "next_turn": "",
         "focus_dofus": "f13",
         "reorganizer": "f11",
         "actualise": "f4",
-        "macro_clic_next_win": "x1",
-        "invite_all": "f10"
+        "macro_clic_next_win": "",
+        "invite_all": ""
     },
     "overlay": {
         "posx": 160,

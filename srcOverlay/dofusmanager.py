@@ -22,6 +22,7 @@ import ctypes
 user32 = ctypes.windll.user32
 VK_SHIFT = 0x10
 VK_CONTROL = 0x11
+VK_F10 = 0x79
 KEYEVENTF_KEYUP = 0x0002
 
 MOUSEEVENTF_LEFTDOWN = 0x0002
@@ -103,6 +104,8 @@ class DofusManager(Observer):
             return self.macro_clic_next_win
         elif shortcut == "invite_all":
             return self.macro_invite_all
+        elif shortcut == "invite":
+            return self.macro_follow
         else: 
             logging.error(f"shortcut {shortcut} not found")
         
@@ -221,6 +224,16 @@ class DofusManager(Observer):
                 self.dofus_handler.open_specific_page(names[0])
                 
                 invite_all(names[1:])
+    
+    def macro_follow(self):
+        try:
+            # Appui F10
+            user32.keybd_event(VK_F10, 0, 0, 0)
+            time.sleep(0.02)
+            # Relâche F10
+            user32.keybd_event(VK_F10, 0, KEYEVENTF_KEYUP, 0)
+        except Exception:
+            logging.exception("Erreur lors de la simulation de la touche F10 pour x1")
             
     def allow_event(self):
         tmp = win32gui.GetForegroundWindow()

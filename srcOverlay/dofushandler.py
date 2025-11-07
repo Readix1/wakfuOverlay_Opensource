@@ -207,7 +207,7 @@ def dofusEnumerationHandler(hwnd, top_windows, process_cache):
         try:
             # Récupérer l'exécutable associé au processus
             exe = psutil.Process(pid).exe().lower()
-            process_cache[pid] = "dofus.exe" in exe
+            process_cache[pid] = "wakfu" in exe
         except (psutil.NoSuchProcess, ValueError):
             process_cache[pid] = False
 
