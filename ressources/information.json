@@ -55,7 +55,8 @@
     "Readix": {
         "classe": "Iop",
         "ini": 1,
-        "image_path": "ressources\\img_overlay\\heads/90_1.png"
+        "image_path": "ressources\\img_overlay\\heads/90_1.png",
+        "shortcut": "f14"
     },
     "Ganna": {
         "classe": "Pandawa",
@@ -224,8 +225,9 @@
     },
     "WAKFU": {
         "classe": "",
-        "ini": 0,
-        "image_path": "ressources\\img_overlay\\icons/1004.png"
+        "ini": 1,
+        "image_path": "ressources\\img_overlay\\icons/1004.png",
+        "shortcut": "f14"
     },
     "Xeleto": {
         "classe": "WAKFU",
@@ -280,6 +282,24 @@
     "Ubu-Roi": {
         "classe": "Iop",
         "ini": 1,
-        "image_path": "ressources\\img_overlay\\heads/60_1.png"
+        "image_path": "ressources\\img_overlay\\heads/30_1.png"
+    },
+    "Nune": {
+        "classe": "WAKFU",
+        "ini": 2,
+        "image_path": "ressources\\img_overlay\\heads/60_1.png",
+        "shortcut": "f14"
+    },
+    "Neo-Readix": {
+        "classe": "iop",
+        "ini": 2,
+        "image_path": "ressources\\img_overlay\\heads/120_1.png",
+        "shortcut": "f14"
+    },
+    "Obo": {
+        "classe": "iop",
+        "ini": 2,
+        "image_path": "ressources\\img_overlay\\heads/10_1.png",
+        "shortcut": "f14"
     }
 }
