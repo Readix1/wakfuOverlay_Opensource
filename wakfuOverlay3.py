@@ -8,3 +8,6 @@ except Exception:
     print("Une erreur est survenue :")
     traceback.print_exc()
     input("Appuyez sur Entrée pour quitter...")
+
+
+#--hidden-import comtypes.stream --hidden-import comtypes.safearray
